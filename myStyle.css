@@ -33,19 +33,18 @@ section {
 /* HEADER STYLES */
 /* HEADER STYLES */
 /* HEADER STYLES */
-header { 
-    width: 100%;
-    background-color: #eee;
-    
+header {
+  width: 100%;
+  background-color: #eee;
 }
 .header {
   display: flex;
   justify-content: space-between;
-  align-items:center;
+  align-items: center;
 }
 .header img {
   height: 7rem;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 nav ul {
   display: flex;
@@ -56,7 +55,6 @@ nav ul li {
   list-style: none;
   font-size: 1.6rem;
   padding: 0 1.5rem;
-
 }
 li a,
 li a:visited,
@@ -65,14 +63,13 @@ li a:active {
   font-weight: 500;
   text-decoration: none;
   color: #16697a;
-  transition: all .3s;
-
+  transition: all 0.3s;
 }
 li a:hover,
 ul li .current {
   color: #bb2205;
   font-size: 1.7rem;
-}
+} 
 
 /* INTRO SECTION */
 /* INTRO SECTION */
@@ -81,30 +78,30 @@ ul li .current {
   background: url(./images/1-bg.jpg) no-repeat center;
   background-size: cover;
   height: 60vh;
-
 }
 .intro {
   width: 55%;
   color: #fff;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 5rem 2rem;
   border-radius: 5px;
 }
-.intro .intro-text{
+.intro .intro-text {
   font-size: 1.7rem;
   font-weight: 700;
   color: red;
   text-transform: uppercase;
 }
 .p-header {
-font-size: 2.8rem;
+  font-size: 2.8rem;
   font-weight: 700;
   color: #fff;
-    text-transform:capitalize;
-    letter-spacing: 3px;
-    margin-bottom: 1rem;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  margin-bottom: 1rem;
 }
-.p-header, span {
+.p-header,
+span {
   display: block;
 }
 .white-text {
@@ -116,14 +113,103 @@ font-size: 2.8rem;
   font-size: 1.6rem;
   font-weight: 500;
   border: 1px solid white;
-border-radius: 5px;
-text-decoration: none;
-color: #fff;
-padding: .5rem;
-transition: all .3s;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  padding: 0.8rem 0.5rem;
+  transition: all 0.3s;
+  background-color: transparent;
+}
+.btn:hover {
+  background-color: #bb2205;
+}
+/* ABOUT SECTION */
+/* ABOUT SECTION */
+/* ABOUT SECTION */
+
+.about-section {
+  background-color: #eee;
+}
+ .about {
+  width: 60%;
+  color: #333;
+  margin: 0 auto;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+  
+
+.abt-pheader {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  margin-bottom: 1rem;
+} 
+.white-text {
+  font-size: normal;
+  font-weight: 400;
+}
+.menu-section {
+  background-color: #fff;
 
 }
-.btn:hover{
- background-color: #bb2205;  
+.menu-heading {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.menu-items {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1rem;
+  
+}
+.jpeg{
+  width: 30rem;
+  height: 20rem;
+  border:9px solid white;
+  border-radius: 1px;
+  padding: 2rem;
+}
+.menu-item, h3{
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: left;
+  overflow: hidden;
+  text-transform: capitalize;
+}
+.menu-item, p {
+  font-size: 1.5rem;
+}
 
+/************** MEDIA QUERIES **************/
+/************** MEDIA QUERIES **************/
+/************** MEDIA QUERIES **************/
+@media screen and (max-width: 600px) {
+  /* INTRO */
+  .intro {
+    width: 100%;
+  }
+  /* ABOUT SECTION */
+  .about{
+    width: 60%;
+  }
+  /* MENU SECTION */
+  .menu-items{
+  flex-direction: column;
+
+  }
+  
 }
