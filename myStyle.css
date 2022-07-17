@@ -194,6 +194,109 @@ img {
   font-size: 1.5rem;
 }
 
+
+
+/* TESTIMONIAL SECTION */
+/* TESTIMONIAL SECTION */
+/* TESTIMONIAL SECTION */
+.testimonial-section {
+  background: url(./images/bg-3.jpg) no-repeat center;
+  background-size: cover;
+  height: 60vh;
+  background-attachment: fixed;
+
+}
+.testimonial {
+  border: 2px solid transparent;
+  background-color:rgba(255, 255, 255, 0.5);
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700 ;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+
+}
+.s-head {
+  font-size: 2.7rem;
+  font-weight: 700;
+}
+.q-head {
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-bottom: .5rem;
+
+}
+
+/* Order Section */
+/* Order Section */
+/* Order Section */
+
+.order {
+  width: 75%;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+.order-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding:s 1rem;
+}
+.order-item {
+  display: flex;
+  width: 70%;
+  align-items: center;
+
+}
+.order-item img {
+margin: .5rem;
+}
+
+.order-item p {
+   font-size: 1.3rem;
+}
+
+.order-price p{
+  font-weight: 500;
+  padding-bottom: 2rem;
+}
+
+.btn-solid{
+  background-color: #bb2205;
+  padding: .8rem 1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #2d6187;
+  padding: 1rem 0;
+}
+
+
+.footer {
+  width: 80%;
+  margin: 0 auto;
+  display:  flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.footer p {
+  margin: 1rem;
+  color: #fff;
+
+}
+.ul-links li a {
+color: #fff;
+}
+
+
+
 /************** MEDIA QUERIES **************/
 /************** MEDIA QUERIES **************/
 /************** MEDIA QUERIES **************/
@@ -211,5 +314,19 @@ img {
   flex-direction: column;
 
   }
-  
+ /* TESTIMONIAL SECTION */
+ .testimonial {
+  width: 70%;
+  padding: 1rem;
 }
+}
+/* ORDER SECTION */
+.order{
+  width: 100%;
+
+}
+.order-box{
+  padding: .5rem;
+
+}
+/* FLEXBOX */
