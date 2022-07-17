@@ -1,2 +1,3 @@
 # mini_restaurant
-A mini restaurant web page
+A one page mini restaurant designed with HTML and CSS
+view @ https://damilolaabiona.github.io/mini_restaurant/
