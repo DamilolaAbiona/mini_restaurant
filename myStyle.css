@@ -202,7 +202,7 @@ img {
 .testimonial-section {
   background: url(./images/bg-3.jpg) no-repeat center;
   background-size: cover;
-  height: 60vh;
+  height: 100vh;
   background-attachment: fixed;
 
 }
@@ -232,9 +232,11 @@ img {
 /* Order Section */
 /* Order Section */
 /* Order Section */
-
+.order-section {
+  
+}
 .order {
-  width: 75%;
+  width: 50%;
   margin: 0 auto;
   padding: 3rem 0;
 }
